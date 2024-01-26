@@ -11,10 +11,11 @@ The script requires a single argument: the domain name for which you want to gen
 ### Description
 When executed, the script performs the following steps:
 
- - Generates a 2048-bit RSA private key.
- -  Creates a Certificate Signing
-  -  Request (CSR) with customizable country, state, locality, organization, and email. 
-   - Self-signs the CSR with the private key to create a certificate. Copies the certificate and key to a specified output directory.
+- Generates a 2048-bit RSA private key.
+- Creates a Certificate Signing
+- Request (CSR) with customizable country, state, locality, organization, and email. 
+- Self-signs the CSR with the private key to create a certificate.
+- Copies the certificate and key to a specified output directory.
 
 ### Configuration
 Before running the script, configure the following variables at the beginning of the script:
